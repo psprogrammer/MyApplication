@@ -1,0 +1,9 @@
+.ControlBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ControlBar__btn {
+  padding: 5px;
+}
