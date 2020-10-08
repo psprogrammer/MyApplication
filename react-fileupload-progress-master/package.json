@@ -1,0 +1,82 @@
+{
+  "name": "react-fileupload-progress",
+  "version": "0.5.0",
+  "description": "React component which render progress of fileupload",
+  "main": "./lib/index.js",
+  "scripts": {
+    "watch:example": "watchify example/app.js -dv -o example/bundle.js",
+    "start:example": "node example/server.js & npm run watch:example",
+    "test:local": "karma start",
+    "test": "./node_modules/.bin/karma start --browsers Firefox --single-run",
+    "clean": "rimraf lib",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/georgeosddev/react-fileupload-progress"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "fileupload",
+    "progress"
+  ],
+  "author": "Takeharu.Oshida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgeosddev/react-fileupload-progress/issues"
+  },
+  "homepage": "https://github.com/georgeosddev/react-fileupload-progress",
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.11.6",
+    "@babel/preset-env": "7.11.5",
+    "@babel/preset-react": "7.10.4",
+    "babel-eslint": "10.1.0",
+    "babelify": "10.0.0",
+    "browser-sync": "2.26.12",
+    "browserify": "16.5.2",
+    "chai": "4.2.0",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-react": "7.21.3",
+    "express": "4.17.1",
+    "karma": "5.2.3",
+    "karma-browserify": "7.0.0",
+    "karma-chai": "0.1.0",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-cli": "2.0.0",
+    "karma-coverage": "2.0.3",
+    "karma-firefox-launcher": "1.3.0",
+    "karma-mocha": "2.0.1",
+    "karma-safari-launcher": "1.0.0",
+    "karma-spec-reporter": "0.0.32",
+    "mocha": "8.1.3",
+    "multer": "1.4.2",
+    "react": "16.13.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-dom": "16.13.1",
+    "rimraf": "3.0.2",
+    "sinon": "9.2.0",
+    "watchify": "3.11.1"
+  },
+  "dependencies": {
+    "babel-plugin-istanbul": "^6.0.0",
+    "core-js": "3",
+    "eslint-plugin-import": "^2.17.3",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.7.2",
+    "sinon": "^9.0.0"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
+    ]
+  }
+}
