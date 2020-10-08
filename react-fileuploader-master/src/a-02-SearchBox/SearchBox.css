@@ -1,0 +1,24 @@
+.SearchBox { 
+  position: relative; 
+  margin: 2px;
+}
+
+.SearchBox input {
+   text-indent: 45px;
+   width: 100%;
+   height: 45px;
+   font-size: 1.2em;
+   border: 1px solid #D0CFCE;
+   border-radius: 5px;
+   outline: none;
+}
+
+.SearchBox .fa-search { 
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  font-size: 15px;
+  width: 35px;
+  height: 35px;
+  color: #D0CFCE;
+}

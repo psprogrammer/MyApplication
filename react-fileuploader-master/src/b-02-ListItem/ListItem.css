@@ -1,0 +1,59 @@
+.ListItem {
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.ListItem__icon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ListItem__circle {
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0,0,0,0.3);
+}
+
+.ListItem__content {
+  flex: 5;
+  padding: 2px;
+}
+
+.ListItem__heading {
+  display: flex;
+}
+
+.ListItem__title {
+  flex: 4;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.ListItem__size {
+  flex: 1;
+  font-size: 0.9em;
+  color: rgba(0,0,0,0.4);
+  text-align: right;
+}
+
+.ListItem__actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ListItem__status {
+  flex: 1;
+  font-size: 0.9em;
+  color: lightblue;
+  text-align: left;
+}

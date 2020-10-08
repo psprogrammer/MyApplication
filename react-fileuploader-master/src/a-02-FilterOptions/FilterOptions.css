@@ -1,0 +1,15 @@
+.FilterOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.9em;
+  margin: 2px;
+}
+
+.FilterOptions__option input{
+  margin-right: 10px;
+}
+
+.FilterOptions__option label {
+  color: #7D7D7D;
+}
