@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+main, section, header, footer, p, div, ul, li, a, 
+h1, h2, h3, h4, h5, h6, nav, menu{
+  padding: 0;
+  margin: 0;
+}
+
+
