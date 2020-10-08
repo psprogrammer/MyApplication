@@ -1,0 +1,14 @@
+.Button {
+    color: #5C9210;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
