@@ -1,8 +1,0 @@
-.ControlBar {
-  display: flex;
-  flex-direction: row;
-}
-
-.ControlBar__btn {
-  padding: 6px;
-}
